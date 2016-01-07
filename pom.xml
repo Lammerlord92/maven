@@ -37,7 +37,7 @@
         </plugins>
     </build>
 	
-
+ <profiles>
   <profile>
      <id> prof-1 </id>
      <activation>
@@ -70,4 +70,5 @@
         </plugins>
     </build>
   </profile>
+   </profiles>
  </project>
