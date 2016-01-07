@@ -52,7 +52,7 @@
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.3</version>
-				<verbose>true</verbose>
+				
 				<executions>
 					<execution>
 						<id>copy-dependencies</id>
@@ -61,8 +61,7 @@
 							<goal>copy-dependencies</goal>
 						</goals>
 						<configuration>
-							<outputDirectory>C:/Users/Javier/practicaEx/dependencias</outputDirectory>
-							<includeScope> runtime </includeScope> 
+							<verbose>true</verbose>
 						</configuration>
 					</execution>
 				</executions>
