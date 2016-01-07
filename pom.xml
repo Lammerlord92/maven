@@ -58,7 +58,7 @@
 						<id>copy-dependencies</id>
 						<phase>compile</phase>
 						<goals>
-							<goal>copy-dependencies</goal>
+							<goal>compile</goal>
 						</goals>
 						<configuration>
 							<verbose>true</verbose>
